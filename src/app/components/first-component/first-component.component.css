@@ -1,0 +1,12 @@
+h2 {
+  color: red;
+} /*Essa estilização não vaza para outros componentes ou outros elementos*/
+.title {
+  background: #000;
+  color: aqua;
+  padding: 15px;
+}
+
+p {
+  padding: 5px;
+}

@@ -1,0 +1,57 @@
+<!-- node_modules - dependências do projeto; -->
+<!-- src onde vamos programar a aplicação; -->
+<!-- src/app - pasta principal para componentes, services e etc; -->
+<!-- Os componentes são divididos em partes: TS, HTML, CSS e testes; -->
+<!-- Criar: ng generate <nome> || ng g-->
+<!-- Criar componente: 'ng generate component <nome>' || 'ng g c <nome>' -->
+<!-- Importando o componente: basta utilizar o seletor em um HTML de outro componente -->
+<!-- criamos uma nova pasta para organizar nosso componente -->
+<!-- ng g c components/first-component -->
+<!-- ele também atualizou o arquivo app.modules.ts (aqui são mapeados todos os componentes)  -->
+<!-- selector do componente é: 'app-' +  'nome do componente'   -->
+<!-- O CSS no componente não vaza para outros componentes ou elementos -->
+<!-- INTERPOLAÇÃO DE DADOS  -->
+<!-- embora TS seja opcional ele leva o nosso projeto para o proximo nível -->
+
+<!-- CSS no Angular  -->
+<!-- Global ou Scoped   -->
+<!-- Global = 'style.css na pasta src'  -->
+<!-- Scoped = 'no css do componente'  -->
+
+<!-- Compartilhando dados do pai para o filho  -->
+<!-- Do componente pai para o componente filho  -->
+<!-- na chamada do componente colocamos o nome do dado com sintaxe [dado]  -->
+<!-- no .ts filho vamos usar um decorator @Input  -->
+
+<!-- Diretivas  -->
+<!-- realizam diversas funções no sistema ex aplicar estilos a um elemento  -->
+<!-- ngAlgumaCoisa - sempre começam com ng -->
+
+<!--   -->
+<!--   -->
+<!--   -->
+<!--   -->
+
+<p>header</p>
+<nav>
+  <a routerLink="/" style="padding: 20px">Home</a>
+  <a routerLink="/list">Lista</a>
+</nav>
+<h1>Hello World Angular!</h1>
+<router-outlet></router-outlet>
+<p>footer</p>
+<!--
+  <div>
+    <a href="#">Clique Aqui!</a>
+  </div>
+  
+  <app-first-component></app-first-component>
+  <app-parent-data [name]="userName" [userData]="userData"></app-parent-data>
+  <app-directives></app-directives>
+  <app-if-render></app-if-render>
+  <app-eventos></app-eventos>
+  <app-emitter></app-emitter>
+  <app-list-render></app-list-render>
+  <app-pipes></app-pipes>
+  <app-two-way-binding></app-two-way-binding>
+-->
