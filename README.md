@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Curso Angular \<notes>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
-## 01 Curso Angular 13: Introdução
+## 01 - Introdução
 
 Compõe a stack MEAN ->
 
@@ -52,7 +52,7 @@ podemos ter um pouco de dificuldade no princípio, mas veremos que o Angular é 
 - Node.js: para instalar o Angular, outros pacotes e rodar scripts;
 - Um editor de código, sugestão: vsCode000000
 
-## 02 Curso Angular 13: Instalando o Angular - primeiro projeto
+## 02 - Instalando o Angular | primeiro projeto
 
 ### Hello World!!
 
@@ -63,7 +63,7 @@ podemos ter um pouco de dificuldade no princípio, mas veremos que o Angular é 
 
 Nesta página inicial zerada do projeto temos o `Getting started with Angular` para aprendermos mais com a documentação do Angular.
 
-## 03 Curso Angular 13: Estrutura do Angular
+## 03 - Estrutura do Angular
 
 ### Logo apos a crição do projeto `ng new`
 
@@ -97,7 +97,7 @@ testes.ts - arquivo de testes global;
 - `./src/assets` - colocamos imagens estáticas do projeto (ex logo da empresa);
 - `./src/enviroments` - ambientes que o angular vai poder rodar (ambiente de desenvolvimento, ambiente de produção. testes); ex em produção nós vamos remover todos os comentários;
 
-### 04 Curso Angular 13: Criando componentes
+## 04 - Criando componentes
 
 ng generate component <nome> {vamos criar numa subpasta para organizar}
 
@@ -148,7 +148,7 @@ o selector do componente deve ser declarado no `.html` do `src/app`
 
 Faça o curso de TS é para quem quer progromar profissionalmente em Angular.
 
-### 05 Curso Angular 13: Dados no template
+## 05 - Dados no template
 
 Interpolação de dados
 
@@ -178,12 +178,12 @@ O typescript acaba sendo opcional no Angular, mas leva nosso código para o prox
 `hobbies = ["Correr", "Jogar", "Estudar"]`
 `<p> Hobies preferido: {{ hobbies[2] }} </p>`
 
-### 06 Curso Angular 13: CSS no Angular
+## 06 - CSS no Angular
 
 Global - em ./src/style.css
 Scoped - no CSS dentro do próprio componente;
 
-### 07 Curso Angular 13: Compartilhamento de dados
+## 07 - Compartilhamento de dados
 
 Compartilhando dados entre os componentes `pai e filho`
 Isso reforça o reaproveitamento de componentes;
@@ -269,7 +269,7 @@ export class DirectivesComponent {
 
 classes e underline foram exportados
 
-### 09 Curso Angular 13: Renderização condicional
+## 09 - Renderização condicional
 
 `ng generate components/if-render`
 
@@ -518,6 +518,7 @@ Ele formata na interpolação de dados.
 
 ver pipe operators na documentação do Angular e fazer esses exemplos:
 
+
 ## 15 - Two way data binding no Angular
 
 Temos que importar coisas como `FormsModule` e o `ngModel`
@@ -722,5 +723,5 @@ Vamos fazer um requisição do `component` passar pelo `service`
 a partir desse componente a gente vai criar um rota...
 
 PARAMOS AQUI (DEVE SER REFEITA!)
-20
-Curso Angular 13: Excluindo dados pelo Service - #20
+
+## 20 - Excluindo dados pelo Service
